@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+	     <div id="name-btn">	
+		<h1 id="name">Formulynas.tk</h1>
+			<div id="sidebar-btn" onclick="changeClass1()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>		 
+		</div>
+            <nav id="nav">        
+                <div class="nav-box">
+                    <ul class="nav-list">
+                        <li><a id="home-link" href="index.html">Pradžia</a></li>
+						<li>
+							<a class="links" id="formules" href="#">Formulės</a>
+					         <ul class="types">
+                                <li><a class="links" id="math" href="matematika.html">Matematika</a></li>
+                                <li><a class="links" href="chemija.html">Chemija</a></li>
+                                <li><a class="bottom-link" href="fizika.html">Fizika</a></li>
+                            </ul>
+						</li>
+                        <li><a class="bottom-link" href="info.html">Informacija</a></li>
+                    </ul>
+                </div>
+            </nav>			
+        </header>
+        
+		
+        <div class="main-body">
+            
+            <div class="home">
+
+                <div class="h-main">
+                    <h1>Chemijos formulės</h1>
+                </div>
+                <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+                     unselectable="on"
+                     onselectstart="return false;" 
+                     onmousedown="return false;">
+                    
+                    <!-- Medžiagos masės dalis -->
+                    <div class="fc" onclick="changeClass2(0)">
+
+                        <div class="title">
+                            <h3>
+                                Medžiagos masės dalis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col shrink">
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">ꙍ(medžiagos)=</td>
+                                        <td style="border-bottom:solid 1px">m(medžiagos)</td>
+                                        <td rowspan="2">*100%</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>m(mišinio)</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">m(medžiagos)=</td>
+                                        <td style="border-bottom:solid 1px">ꙍ(medžiagos)*m(mišinio)</td>
+                                           
+                                        </tr>
+                                        <tr>            
+                                          <td>100%</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">m(mišinio)=</td>
+                                        <td style="border-bottom:solid 1px">m(medžiagos)</td>
+                                           <td rowspan="2">*100%</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>ꙍ(medžiagos)</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>ꙍ(medžiagos)-medžiagos masės dalis mišinyje [ꙍ]=1%</p>
+                                    <p>m(medžiagos)-grynos medžiagos masė [m]=1g</p>
+                                    <p>m(mišinio)-mišinio masė [m]=1g</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Molis -->
+                    <div class="fc" onclick="changeClass2(1)">
+
+                        <div class="title">
+                            <h3>
+                                Molis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">n=</td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>M</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <p class="leftt">m=nM</p>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">M = </td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>n</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>M-molinė masė [M]=1g/mol</p>
+                                    <p>n-grynos medžiagos kiekis [n]=1mol</p>
+                                    <p>m-masė [m]=1g</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Molinė koncentracija -->
+                    <div class="fc" onclick="changeClass2(2)">
+
+                        <div class="title">
+                            <h3>
+                                Molinė koncentracija
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">c=</td>
+                                        <td style="border-bottom:solid 1px">n</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>V</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">V=</td>
+                                        <td style="border-bottom:solid 1px">n</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>c</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>    
+                                    
+                                    <p class="leftt">n=cV</p>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>c-grynos medžiagos molinė koncentracija tirpale [c]=1mol/l</p>
+                                    <p>V-tirpalo tūris [V]=1l</p>
+                                    <p>n-grynos medžiagos kiekis [n]=1mol</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tankis -->
+                    <div class="fc" onclick="changeClass2(3)">
+
+                        <div class="title">
+                            <h3>
+                                Tankis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <table>
+                                        
+                                      <br>
+                                        
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">𝜌=</td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>V</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">V=</td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>𝜌</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <p class="leftt">m=𝜌V</p>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>𝜌−Medžiagos tankis [𝜌]=1g/cm<sup>3</sup>=g/ml</p>
+                                    <p>𝑉−Tūris [𝑉]=1ml=1cm<sup>3</sup>
+                                    <p>𝑚−Masė [𝑚]=1kg=1g</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>
+                &copy; 2018 A. Draugelis ir D. Gruodis
+            </p>
+        </footer>
+			<script>
+				function changeClass1() {
+					document.getElementById("nav").classList.toggle('visible');
+				}
+			
+				function changeClass2(boxNumber) {
+					var info = document.getElementsByClassName("info");
+						info[boxNumber].classList.toggle("invisible")
+				}
+		    </script>
+    </body>
+    
+</html>

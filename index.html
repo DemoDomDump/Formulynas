@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+	     <div id="name-btn">	
+		<h1 id="name">Formulynas.tk</h1>
+			<div id="sidebar-btn" onclick="changeClass()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>		 
+		</div>
+            <nav id="nav">        
+                <div class="nav-box">
+                    <ul class="nav-list">
+                        <li><a id="home-link" href="index.html">Pradžia</a></li>
+						<li>
+							<a class="links" id="formules" href="#">Formulės</a>
+					         <ul class="types">
+                                <li><a class="links" id="math" href="matematika.html">Matematika</a></li>
+                                <li><a class="links" href="chemija.html">Chemija</a></li>
+                                <li><a class="bottom-link" href="fizika.html">Fizika</a></li>
+                            </ul>
+						</li>
+                        <li><a class="bottom-link" href="info.html">Informacija</a></li>
+                    </ul>
+                </div>
+            </nav>			
+        </header>
+        
+		
+        <div class="main-body">
+            
+            <div>
+
+                <div class="h-main">
+                    <h1>Visos formules 1-ajai gimnazijos klasei</h1>
+                </div>
+
+                <div class="text-main">
+                    <h4>Ši svetainė skirta devintokams, kurie nori lengvai rasti reikiamas formules.</h4>
+                </div>
+
+                <div class="text-other">
+
+                </div>
+
+                <div class="link">
+
+                </div>
+
+                <div class="img">
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <footer class="footer">
+            <p>
+                &copy; 2018 Klaipėdos „Ąžuolyno“ gimnazija
+            </p>
+        </footer>
+			<script>
+				function changeClass() {
+					document.getElementById("nav").classList.toggle('visible');
+				}
+			</script>
+    </body>
+    
+</html>

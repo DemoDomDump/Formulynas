@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+	     <div id="name-btn">	
+		<h1 id="name">Formulynas.tk</h1>
+			<div id="sidebar-btn" onclick="changeClass1()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>		 
+		</div>
+            <nav id="nav">        
+                <div class="nav-box">
+                    <ul class="nav-list">
+                        <li><a id="home-link" href="index.html">Pradžia</a></li>
+						<li>
+							<a class="links" id="formules" href="#">Formulės</a>
+					         <ul class="types">
+                                <li><a class="links" id="math" href="matematika.html">Matematika</a></li>
+                                <li><a class="links" href="chemija.html">Chemija</a></li>
+                                <li><a class="bottom-link" href="fizika.html">Fizika</a></li>
+                            </ul>
+						</li>
+                        <li><a class="bottom-link" href="info.html">Informacija</a></li>
+                    </ul>
+                </div>
+            </nav>			
+        </header>
+        
+		
+        <div class="main-body">
+            
+            <div class="home">
+
+                <div class="h-main">
+                    <h1>Matematikos formulės</h1>
+                </div>
+                <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+                     unselectable="on"
+                     onselectstart="return false;" 
+                     onmousedown="return false;">
+                    
+                    <div class="fc" onclick="changeClass2(0)">
+
+                        <div class="title">
+                            <h3>
+                                Sutrumpintos daugybos formulės
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">a<sup>2</sup>-b<sup>2</sup>=(a-b)(a+b)</p>
+                                    <br>
+                                    <p class="leftt">(a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup></p>
+                                    <br>
+                                    <p class="leftt">(a-b)<sup>2</sup>=a<sup>2</sup>-2ab+b<sup>2</sup></p>
+                                    <br>
+                                    <p class="leftt">(a-b)=-(b-a)</p>
+                                    <br>
+                                    <p class="leftt">(a-b)<sup>2</sup>=(b-a)<sup>2</sup></p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>a, b-skiačiai</p>
+                                    <p></p>
+                                    <!--
+                                    <p>Sprendiniai:</p>
+                                    <p>Kai a≠0 - 1</p>
+                                    <p>Kai a=0, b≠0 - Nėra</p>
+                                    <p>Kai a=0, b=0 - Visi realieji sk. (x∈R)</p>
+                                    //-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tiesinė lygtis -->
+                    <div class="fc" onclick="changeClass2(1)">
+
+                        <div class="title">
+                            <h3>
+                                Tiesinė lygtis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">ax=b</p>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">x=</td>
+                                        <td style="border-bottom:solid 1px">b</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>a</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>a, b-skiačiai</p>
+                                    <p>x-nežinomasis(kintamasis)</p>
+                                    <!--
+                                    <p>Sprendiniai:</p>
+                                    <p>Kai a≠0 - 1</p>
+                                    <p>Kai a=0, b≠0 - Nėra</p>
+                                    <p>Kai a=0, b=0 - Visi realieji sk. (x∈R)</p>
+                                    //-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kvadratinė lygtis -->
+                    <div class="fc" onclick="changeClass2(2)">
+
+                        <div class="title">
+                            <h3>
+                                Kvadratinė lygtis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">f(x)= ax<sup>2</sup>+bx+c=0</p>
+                                    
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>a, b, c-skaičiai</p>
+                                    <p>x-nežinomasis(kintamasis)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Molinė koncentracija -->
+                    <div class="fc" onclick="changeClass2(3)">
+
+                        <div class="title">
+                            <h3>
+                                Pilnoji kvadratinė lygtis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    
+                                    <p class="leftt">D=b<sup>2</sup>-4ac</p>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">x<sub>1</sub>=</td>
+                                        <td style="border-bottom:solid 1px">-b+√D</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>2a</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">x<sub>2</sub>=</td>
+                                        <td style="border-bottom:solid 1px">b-√D</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>c</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>a, b, c-skaičiai</p>
+                                    <p>x-nežinomasis(kintamasis)</p>
+                                    <p>D-diskriminantas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tankis -->
+                    <div class="fc" onclick="changeClass2(4)">
+
+                        <div class="title">
+                            <h3>
+                                Tesioginio proporcingumo funkcija
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">f(x)=kx</p>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>x-nepriklausomas kintamasis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="fc" onclick="changeClass2(5)">
+
+                        <div class="title">
+                            <h3>
+                                Tiesinė funkcija
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">f(x)=kx+b</p>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>x-nepriklausomas kintamasis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>
+                &copy; 2018 A. Draugelis ir D. Gruodis
+            </p>
+        </footer>
+			<script>
+				function changeClass1() {
+					document.getElementById("nav").classList.toggle('visible');
+				}
+			
+				function changeClass2(boxNumber) {
+					var info = document.getElementsByClassName("info");
+						info[boxNumber].classList.toggle("invisible")
+				}
+		    </script>
+    </body>
+    
+</html>

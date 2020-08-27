@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+	     <div id="name-btn">	
+		<h1 id="name">Formulynas.tk</h1>
+			<div id="sidebar-btn" onclick="changeClass1()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>		 
+		</div>
+            <nav id="nav">        
+                <div class="nav-box">
+                    <ul class="nav-list">
+                        <li><a id="home-link" href="index.html">Pradžia</a></li>
+						<li>
+							<a class="links" id="formules" href="#">Formulės</a>
+					         <ul class="types">
+                                <li><a class="links" id="math" href="matematika.html">Matematika</a></li>
+                                <li><a class="links" href="chemija.html">Chemija</a></li>
+                                <li><a class="bottom-link" href="fizika.html">Fizika</a></li>
+                            </ul>
+						</li>
+                        <li><a class="bottom-link" href="info.html">Informacija</a></li>
+                    </ul>
+                </div>
+            </nav>			
+        </header>
+        
+		
+        <div class="main-body">
+            
+            <div class="home">
+
+                <div class="h-main">
+                    <h1>Fizikos formulės</h1>
+                </div>
+                <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+                     unselectable="on"
+                     onselectstart="return false;" 
+                     onmousedown="return false;">
+                    
+                    <div class="fc" onclick="changeClass2(0)">
+
+                        <div class="title">
+                            <h3>
+                                Šilumos kiekis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">𝑄=𝑐𝑚(𝑡2−𝑡1)</p>
+                                    <br>
+                                    <p class="leftt">𝑄=𝑐𝑚Δ𝑡</p>
+                                    <br>
+                                    <p class="leftt">𝑄=𝑞𝑚</p>
+                                    <br>
+                                    <p class="leftt">𝑄=𝜆𝑚</p>
+                                    <br>
+                                    <p class="leftt">𝑄=𝐿m</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>𝑄−Šilumos kiekis [𝑄]=1J</p>
+                                    <p>𝑐−Savitoji šiluma [𝑐]=1J/kg∗℃</p>
+                                    <p>𝑚−Masė [𝑚]=1kg</p>
+                                    <p>Δ−Pokytis</p>
+                                    <p>𝑡−Temperatūra [𝑡]=1℃</p>
+                                    <p>𝑞−Kuro degimo šiluma [𝑞]=1J/kg</p>
+                                    <p>𝜆−Savitoji lydimosi šiluma [𝜆]=1J/kg</p>
+                                    <p>𝐿−Savitoji garavimo šiluma [𝐿]=1J/kg</p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(1)">
+
+                        <div class="title">
+                            <h3>
+                                Naudingumo koeficientas
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">η=</td>
+                                        <td style="border-bottom:solid 1px">𝐴<sub>𝑛</sub></td>
+                                        </tr>
+                                        <tr>            
+                                          <td>A<sub>v</sub></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>𝜂−Naudingumo koeficientas</p>
+                                    <p>𝐴<sub>𝑛</sub>-Naudingas darbas</p>
+                                    <p>𝐴<sub>𝑣</sub>-Visas darbas</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(2)">
+
+                        <div class="title">
+                            <h3>
+                                Medžiagos tankis, tūris, masė
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <table>
+                                        
+                                      <br>
+                                        
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">𝜌=</td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>V</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">V=</td>
+                                        <td style="border-bottom:solid 1px">m</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>𝜌</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <br>
+                                    
+                                    <p class="leftt">m=𝜌V</p>
+                                </div>
+                                <div class="col">
+                                    
+                                    <br>
+                                    
+                                    <p>𝜌−Medžiagos tankis [𝜌]=1g/cm<sup>3</sup>=g/ml</p>
+                                    <p>𝑉−Tūris [𝑉]=1ml=1cm<sup>3</sup>
+                                    <p>𝑚−Masė [𝑚]=1kg=1g</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(3)">
+
+                        <div class="title">
+                            <h3>
+                                Kelias, laikas, greitis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <p class="leftt">s=𝑣𝑡</p>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">t=</td>
+                                        <td style="border-bottom:solid 1px">S</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>v</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">v=</td>
+                                        <td style="border-bottom:solid 1px">S</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>t</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>s−Kelias [𝑆]=1m; </p>
+                                    <p>𝑡−Laikas [𝑡]=1s</p>
+                                    <p>𝑣−Greitis [𝑣]=1m/s</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                   <div class="fc" onclick="changeClass2(4)">
+
+                        <div class="title">
+                            <h3>
+                                Elektros srovės stipris
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                   <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">I=</td>
+                                        <td style="border-bottom:solid 1px">q</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>t</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">t=</td>
+                                        <td style="border-bottom:solid 1px">q</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>I</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <p class="leftt">q=It</p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>I−Srovės stipris [I]=1A</p>
+                                    <p>𝑡−Laikas [𝑡]=1s</p>
+                                    <p>q−Elektros krūvis [q]=1C</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(5)">
+
+                        <div class="title">
+                            <h3>
+                                Elektros krūvis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                   <br>
+                                    <p class="leftt">q=ne</p>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">n=</td>
+                                        <td style="border-bottom:solid 1px">q</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>e</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <p class="leftt">e - 1,6 * 10<sup>-19</sup></p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>q−Elektros krūvis [q]=1C</p>
+                                    <p>n−Dalelių skaičius [n]=1</p>
+                                    <p>e−Elektrono krūvis [e]=1C</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(6)">
+
+                        <div class="title">
+                            <h3>
+                                Elektrinė įtampa
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                   <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">U=</td>
+                                        <td style="border-bottom:solid 1px">A</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>q</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">q=</td>
+                                        <td style="border-bottom:solid 1px">A</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>U</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <p class="leftt">A=Uq</p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>U−Įtampa [U]=1V</p>
+                                    <p>A−Darbas [A]=1J</p>
+                                    <p>q−Elektros krūvis [q]=1C</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(7)">
+
+                        <div class="title">
+                            <h3>
+                                Elektrinė varža
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                   <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">R=</td>
+                                        <td style="border-bottom:solid 1px">ρl</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>S</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">ρ=</td>
+                                        <td style="border-bottom:solid 1px">RS</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>l</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">S=</td>
+                                        <td style="border-bottom:solid 1px">ρl</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>R</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">l=</td>
+                                        <td style="border-bottom:solid 1px">RS</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>ρ</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>R−Varža [R]=1Ω</p>
+                                    <p>ρ−Savitoji varža [ρ]=1Ωmm<sup>2</sup>/m</p>
+                                    <p>S−Skerspjūvio plotas [S]=1mm<sup>2</sup></p>
+                                    <p>l−Laidininko ilgis [l]=1m</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc" onclick="changeClass2(8)">
+
+                        <div class="title">
+                            <h3>
+                                Omo dėsnis
+                                <i class="fa fa-caret-down" style="margin-left: 40px"></i>
+                            </h3>
+                        </div>
+                        <div class="invisible info">
+                            <div class="row">
+                                <div class="col">
+                                   <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">I=</td>
+                                        <td style="border-bottom:solid 1px">U</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>R</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <table>
+                                      <tbody>
+                                       <tr>
+                                        <td rowspan="2">R=</td>
+                                        <td style="border-bottom:solid 1px">U</td>
+                                        </tr>
+                                        <tr>            
+                                          <td>I</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <p class="leftt">U=IR</p>
+                                </div>
+                                <div class="col">
+                                    <br>
+                                    <p>U−Įtampa [U]=1V; </p>
+                                    <p>R−Varža [R]=1Ω</p>
+                                    <p>I−Srovės stipris [I]=1A</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>
+                &copy; 2018 A. Draugelis ir D. Gruodis
+            </p>
+        </footer>
+			<script>
+				function changeClass1() {
+					document.getElementById("nav").classList.toggle('visible');
+				}
+			
+				function changeClass2(boxNumber) {
+					var info = document.getElementsByClassName("info");
+						info[boxNumber].classList.toggle("invisible")
+				}
+		    </script>
+    </body>
+    
+</html>
